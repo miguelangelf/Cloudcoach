@@ -19,3 +19,11 @@ Route::get('/', function () {
 Route::get('/template/dashboard',function(){
     return view('template/dashboard');
 });
+
+Route::get('/ex', function () {
+    return view('child');
+});
+
+Route::get('/bio', function () {
+    return view('bioform');
+});
